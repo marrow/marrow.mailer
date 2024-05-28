@@ -51,7 +51,7 @@ setup(
 				"Topic :: Utilities",
 			],
 		
-		packages = ('marrow.mailer', 'web.ext'),
+		packages = find_packages(),
 		include_package_data = True,
 		package_data = {'': ['README.textile', 'LICENSE.txt']},
 		
